@@ -25,7 +25,8 @@ from keras.layers import GlobalMaxPooling2D
 from keras_applications.imagenet_utils import _obtain_input_shape
 # from tensorflow.keras.engine.topology import get_source_inputs
 from keras.utils.data_utils import get_file
-from keras.utils import layer_utils, get_source_inputs
+from keras.utils import layer_utils
+from tensorflow.keras.utils import get_source_inputs
 from keras.preprocessing import image
 from keras.applications.imagenet_utils import preprocess_input
 
