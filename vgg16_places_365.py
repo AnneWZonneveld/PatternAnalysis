@@ -10,6 +10,7 @@ import os
 
 import warnings
 import numpy as np
+import tensorflow
 
 from keras import backend as K
 from keras.layers import Input
@@ -22,7 +23,7 @@ from keras.layers.core import Dropout
 from keras.layers import GlobalAveragePooling2D
 from keras.layers import GlobalMaxPooling2D
 from keras_applications.imagenet_utils import _obtain_input_shape
-from keras.engine.topology import get_source_inputs
+from tensorflow.keras.engine.topology import get_source_inputs
 from keras.utils.data_utils import get_file
 from keras.utils import layer_utils
 from keras.preprocessing import image
